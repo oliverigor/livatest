@@ -1,0 +1,41 @@
+.btn-primary {
+	background-color: #4687e8 !important;
+	border-color: #4687e8 !important;
+}
+
+.card-body {
+	padding: 0px !important;
+}
+
+.container {
+	max-width: 1024px !important;
+}
+
+.col-sm-4 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.general-input {
+	height: 48px !important;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 13px;
+
+	color: #373f51;
+}
+
+.form-control {
+	background: #ffffff !important;
+	border: 1px solid #ebebeb !important;
+	box-sizing: border-box !important;
+	border-radius: 2px !important;
+	padding-left: 16px;
+}
+
+.card {
+	width: 331px;
+}
+

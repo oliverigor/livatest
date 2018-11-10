@@ -1,0 +1,324 @@
+.App {
+  text-align: center;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+.btn-footer-fixed {
+  text-align: center;
+  margin: 56px 0px 40px 0px;
+  cursor: pointer;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+hr {
+  margin: 0px !important;
+}
+
+h1 {
+  font-family: Lato !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  font-size: 28px !important;
+  text-align: center;
+  color: #373f51;
+}
+h4 {
+  font-family: Lato !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  font-size: 14px !important;
+  text-align: center;
+  color: #373f51;
+}
+
+h3 {
+  font-family: Lato !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  font-size: 18px !important;
+
+  color: #373f51;
+}
+
+h2 {
+  font-family: Lato !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  font-size: 24px !important;
+
+  color: #373f51;
+}
+
+p {
+  margin: 0px !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+
+  color: #373f51;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+.App-header {
+  background-color: #4687e8;
+  height: 72px;
+
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.main-page-btn {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+input {
+  padding: 0 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 13px;
+
+  color: #373f51;
+}
+
+button {
+  font-family: Lato !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+  font-size: 16px !important;
+  color: #373f51;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.btn-collapse {
+  height: 50px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
+  padding-left: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-page-btn {
+    width: 100%;
+  }
+  .div-back-link {
+    width: 290px !important;
+    margin: 16px 0px 0px 0px !important;
+  }
+  .header {
+    padding: 14px !important;
+  }
+  .card-info {
+    margin-bottom: 16px;
+  }
+  .table-info {
+    width: 270px !important;
+    margin: 8px auto !important;
+  }
+}
+
+.table th,
+td {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 8px !important;
+  color: #373f51;
+}
+th {
+  font-weight: bold !important;
+}
+.btn-send {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.card-info {
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 14px;
+  margin-right: 8px;
+  height: 130px;
+}
+
+.main-page-src {
+  text-align: left;
+  width: 100%;
+}
+
+.header {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0px;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.table-info {
+  width: 600px;
+  margin: 16px auto;
+  background-color: white !important;
+}
+
+.table-details {
+  margin: 16px auto;
+  background-color: white !important;
+}
+.btn-logout {
+}
+
+a {
+  font-family: Lato !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  line-height: normal !important;
+  font-size: 18px !important;
+  text-decoration: none;
+  color: white !important;
+}
+
+.back-link {
+  font-family: Lato !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+  font-size: 14px !important;
+  text-decoration: none;
+  cursor: pointer;
+  color: #373f51 !important;
+}
+
+.div-back-link {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.arrow-rec {
+  padding: 0px 16px 0px 0px;
+  height: 7px;
+  transform: rotate(-90deg);
+}
+
+.arrow-animate {
+  padding: 9px 12px 0px 0px;
+  height: 16px;
+}
+
+/*.arrow-animate:hover {
+  transform: rotate(180deg);
+  transform-origin: top center;
+}*/
+
+.client-details-style {
+  padding: 0px !important;
+}
+
+.link-detail {
+  font-size: 16px;
+  text-decoration-line: underline;
+
+  /* Azul claro */
+  color: #4687e8;
+  cursor: pointer;
+  padding-bottom: 16px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  font-size: 18px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  z-index: 2;
+}
+
+.bottomright-second {
+  position: absolute;
+  bottom: 16px;
+  right: 110px;
+  font-size: 18px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  z-index: 2;
+}
+
+.mini-tag {
+  background: #373f51;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: white;
+  padding: 0px 8px;
+}
+
+.mini-tag-second {
+  background: #6b26c8;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: white;
+  padding: 0px 8px;
+}
