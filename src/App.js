@@ -10,13 +10,10 @@ import {
   Collapse,
   Card,
   CardBody,
-  CardDeck,
   Table,
   Container,
   Row,
-  Col,
-  FormText,
-  FormGroup
+  Col
 } from "reactstrap";
 import Arrow from "./arrow.svg";
 import ArrowUp from "./arrow-up-new.svg";
@@ -24,13 +21,13 @@ import Car from "./car.svg";
 import Bath from "./icon-banheiro.svg";
 import Ruler from "./ruler.svg";
 import Bed from "./bedroom.svg";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Header = () => (
   <header className="App-header">
     <div className="header">
       <Link to="/">
-        <img src={Liva} style={{ height: "40px" }} />
+        <img alt="arrow1223" src={Liva} style={{ height: "40px" }} />
       </Link>
       <h1>Clientela</h1>
       <a style={{ marginTop: "10px" }} href="www.liva.vc">
@@ -82,6 +79,7 @@ class App extends Component {
         <Header />
         <div className="div-back-link">
           <img
+            alt="arrow"
             style={{
               height: "6px",
               transform: "rotate(90deg)",
@@ -141,7 +139,7 @@ class App extends Component {
           <div className="main-page-btn">
             <button className="btn-collapse" onClick={this.toggleData}>
               Dados do cliente
-              <img className="arrow-animate" src={Arrow} />
+              <img alt="arrow2" className="arrow-animate" src={Arrow} />
             </button>
             <Collapse isOpen={this.state.collapseData}>
               <Card>
@@ -221,7 +219,7 @@ class App extends Component {
           <div className="main-page-btn">
             <button className="btn-collapse" onClick={this.toggleSrc}>
               O que o cliente procura
-              <img className="arrow-animate" src={Arrow} />
+              <img alt="arrow3" className="arrow-animate" src={Arrow} />
             </button>
             <Collapse isOpen={this.state.collapseSrc}>
               <Card>
@@ -255,7 +253,7 @@ class App extends Component {
             <div className="main-page-btn">
               <button className="btn-collapse" onClick={this.toggleHist}>
                 Histórico de atendimento
-                <img className="arrow-animate" src={Arrow} />
+                <img alt="arrow23" className="arrow-animate" src={Arrow} />
               </button>
             </div>
             <Collapse isOpen={this.state.collapseHist}>
@@ -284,7 +282,7 @@ class App extends Component {
             <div className="main-page-btn">
               <button className="btn-collapse" onClick={this.toggleAtt}>
                 Anotações
-                <img className="arrow-animate" src={Arrow} />
+                <img alt="arrow123" className="arrow-animate" src={Arrow} />
               </button>
             </div>
             <Collapse isOpen={this.state.collapseAtt}>
@@ -323,21 +321,21 @@ class App extends Component {
             <Link to="/newcard">
               <button className="btn-collapse">
                 Imóveis enviados pelo corretor (23)
-                <img className="arrow-rec" src={Arrow} />
+                <img alt="arrow16" className="arrow-rec" src={Arrow} />
               </button>
             </Link>
           </div>
           <div className="main-page-btn">
             <button className="btn-collapse">
               Imóveis enviados pela Liva (49)
-              <img className="arrow-rec" src={Arrow} />
+              <img alt="arrow09" className="arrow-rec" src={Arrow} />
             </button>
           </div>
           <div className="main-page-btn">
             <Link to="/new_client_form">
               <button className="btn-collapse">
                 Novo Cliente !!!!!!!!!!!!
-                <img className="arrow-rec" src={Arrow} />
+                <img alt="arrow" className="arrow-rec" src={Arrow} />
               </button>
             </Link>
           </div>
@@ -384,7 +382,7 @@ export class ScrollButton extends React.Component {
           this.scrollToTop();
         }}
       >
-        <img src={ArrowUp} />
+        <img alt="arrow111" src={ArrowUp} />
         <p>Voltar ao topo</p>
       </div>
     );
@@ -398,6 +396,7 @@ export const ClientTableProfile = () => (
         <tr>
           <td>
             <img
+              alt="arrow2223231"
               style={{
                 height: "32px"
               }}
@@ -406,6 +405,7 @@ export const ClientTableProfile = () => (
           </td>
           <td>
             <img
+              alt="arrow988989"
               style={{
                 height: "32px"
               }}
@@ -414,6 +414,7 @@ export const ClientTableProfile = () => (
           </td>
           <td>
             <img
+              alt="arrow2dsad"
               style={{
                 height: "32px"
               }}
@@ -422,6 +423,7 @@ export const ClientTableProfile = () => (
           </td>
           <td>
             <img
+              alt="arrow2d"
               style={{
                 height: "32px"
               }}
